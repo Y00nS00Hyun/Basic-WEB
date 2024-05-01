@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <form>
+        <div>
+            <label for="signup-email">이메일</label>
+            <input id="signup-email" name="email" type="email">
+        </div>
+        <div>
+            <label for="signup-password">비밀번호 확인</label>
+            <input id="signup-password" name="password" type="password">
+        </div>
+        <div>
+            <label for="signup-repeat">비밀번호 확인</label>
+            <input id="signup-repeat" name="repeat" type="password">
+        </div>
+        <button type="submit">
+            확인
+        </button>
+        <button type="reset">
+            초기화
+        </button>
+        <button type="button">
+            아무 동작 안함
+        </button>
+    </form>
+
+    <br>
+
+    <div>
+        어쩌구 저쩌구를 동의합니까?
+        <input name="agreement" type="checkbox">
+    </div>
+
+    <br>
+
+    <div>
+        <label for="film">좋아하는 영화</label>
+        <label>
+            <input name="film" type="checkbox" value="action">
+            액션
+        </label>
+        <label>
+            <input name="film" type="checkbox" value="romance">
+            로맨스
+        </label>
+        <label>
+            <input name="film" type="checkbox" value="comedy">
+            코메디
+        </label>
+
+    </div>
+
+    <br>
+
+    <div>
+        생일
+        <input name="birthday" type="date">
+    </div>
+
+    <br>
+
+    <div>
+        파일
+        <input name="avatar" type="file" accept=".png, .jpg">
+    </div>
+
+    <br>
+
+    <div>
+        숫자
+        <input type="number" min="100" max="1000" step="100">
+    </div>
+
+    <br>
+
+    <label for="genre">장르</label>
+    <select id="genre" name="genre">
+        <option value="comedy">코메디</option>
+        <option value="">외국 영화</option>
+        <option value="drama">드라마</option>
+        <option value="documentary">다큐멘터리</option>
+        <option value="variety">예능</option>
+    </select>
+
+    <br><br>
+
+    <div>
+        <input id="very-bad" name="feeling" value="0" type="radio">
+        <label for="very-bad">아주 나쁨</label>
+        <input id="bad" name="feeling" value="1" type="radio">
+        <label for="bad">나쁨</label>
+        <input id="soso" name="feeling" value="2" type="radio">
+        <label for="soso">보통</label>
+        <input id="good" name="feeling" value="3" type="radio">
+        <label for="good">좋음</label>
+        <input id="very-good" name="feeling" value="4" type="radio">
+        <label for="very-good">아주 좋음</label>
+    </div>
+
+    <br>
+
+    <div>
+        <label for="signup-feeling">현재 기분</label>
+        <input id="signup-feeling" name="feeling" min="1" max="10" type="range">
+    </div>
+
+    <br>
+
+    <div><textarea name="content"></textarea></div>
+
+    <br>
+
+    <div>
+        <input name="username" placeholder="이메일 또는 휴대전화">
+        <br>
+        <input name="email" type="email" required>
+        <br>
+        <input name="autocomplete" type="text" autocomplete="on">
+        <input name="email_auto" type="email" autocomplete="email">
+        <input name="telephone" autocomplete="tel">
+    </div>
+
+    <button type="submit">버튼</button>
+    <br>
+    <label>
+        아이디
+        <input name="...">
+    </label>
+    <label for="username">아이디</label>
+    <input id="username" name="...">
+</body>
+
+</html>

@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>한국영화</title>
+
+    <style>
+        ul {
+            list-style: none;
+        }
+
+        ul>li {
+            display: inline-block;
+            border: 2px solid #abcabc;
+        }
+    </style>
+
+</head>
+
+<body>
+    <h2 style="color: pink">창 열기</h2>
+    <a href="https://movie.naver.com" target="_blank">네이버 영화 - 새 창으로 열기</a>
+    <br>
+    <a href="https://movie.naver.com" target="_self">네이버 영화 - 현재 창으로 열기</a>
+    <br>
+    <a href="https://movie.naver.com" target="soohyun">네이버 영화 - 수현 창으로 열기</a>
+    <br>
+    <a href="https://movie.daum.net" target="soohyun">네이버 영화 - 수현 창으로 열기</a>
+    <br>
+    <a href="https://imdb.com" target="soohyun">네이버 영화 - 수현 창으로 열기</a>
+    <br><br><br>
+    <h2 style="color: pink"> 메일, 전화하기</h2>
+    <a href="mailto:wise_amy@naver.com">수현이에게 메일 보내기</a>
+    <br>
+    <a href="tel:+821031475514">수현이에게 전화 하기</a>
+
+    <br><br><br>
+    <h2 style="color: pink">리스트 만들기 - 순서 O</h2>
+    <ol type="a">
+        <li>다이아몬드 귀걸이</li>
+        <li>생크림 케이크</li>
+        <li>크리스마스 트리</li>
+        <li>네잎클로버</li>
+        <li>유니콘 뿔</li>
+        <li>발레 오르골</li>
+    </ol>
+
+    <!-- <p>
+        1. 다이아몬드 귀걸이<br>
+        1. 생크림 케이크<br>
+        2. 크리스마스 트리<br>
+        3. 네잎클로버<br>
+        4. 유니콘 뿔<br>
+        5. 발레 오르골<br>
+    </p> -->
+
+    <h2 style="color: pink">리스트 만들기 - 순서 X</h2>
+    <ul>
+        <li>다이아몬드 귀걸이</li>
+        <li>생크림 케이크</li>
+        <li>크리스마스 트리</li>
+        <li>네잎클로버</li>
+        <li>유니콘 뿔</li>
+        <li>발레 오르골</li>
+    </ul>
+    <br><br><br>
+
+    <h2 style="color: pink">표 만들기</h2>
+    <style>
+        table {
+            border: 3px solid red;
+            border-collapse: collapse;
+            /* 여백 없애기 */
+        }
+
+        th,
+        td {
+            border: 3px solid rgb(39, 214, 245);
+        }
+
+        thead th {
+            border: 3px solid rgb(205, 248, 106);
+        }
+    </style>
+
+    <table>
+        <thead>
+            <tr>
+                <th></th>
+                <th>수현</th>
+                <th>미선</th>
+                <th>수림</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <th>동그라미</th>
+                <td>X</td>
+                <td>O</td>
+                <td>O</td>
+            </tr>
+
+            <tr>
+                <th> 귀요미</th>
+                <td>O</td>
+                <td> O</td>
+                <td>X</td>
+            </tr>
+        </tbody>
+    </table>
+    <br><br><br><br>
+
+    <h2 style="color: pink">이미지 넣고 alt를 사용하여 설명 덧붙이기</h2>
+    <h1>너의 이름은</h1>
+    <h2>영화 포스터</h2>
+    <img src="poster.jpg" alt="영화 너의 이름은 포스터" height="500">
+    <br><br><br><br>
+
+    <h2 style="color: pink">비디오 넣기</h2>
+    <video src="dance.mp4" autoplay muted controls width="400"></video>
+    <br><br><br><br>
+
+    <h2 style="color: pink">오디오 넣기</h2>
+    <h5>이 노트북에 있는 노래가 이거 밖에 없네여...^_^;</5><br>
+        <audio src="初心LOVE.mp3" controls></audio>
+        <br><br><br><br>
+
+        <h2 style="color: pink">iframe 넣기 - 다른 html 파일 보여주기</h2>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/ZxD0iLuF-JM?si=48I2jXPGi_Ilk2LM"
+            title="YouTube video player" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+        <br><br><br><br>
+        <iframe src="current.html" width="600px">
+        </iframe>
+
+</body>
+
+</html>
