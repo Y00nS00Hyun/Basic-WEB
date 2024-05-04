@@ -1,0 +1,175 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.navbar {
+  width: 100%;
+  height: 60px;
+  background-color: #353535;
+  padding-left: 30px;
+  padding-right: 30px;
+  line-height: 60px;
+}
+
+.navbar .logo {
+  font-size: 20px;
+  color: white;
+}
+
+.banner {
+  width: 100%;
+  height: 350px;
+  background-image: url('banner_img.jpg');
+  background-size: cover;
+  background-position: center center;
+}
+
+.info {
+  width: 100%;
+  height: 320px;
+  background-color: white;
+
+}
+
+.info .helper {
+  display: inline-block;
+  height: 100%;
+  vertical-align: middle;
+}
+
+.info .info-container {
+  display: inline-block;
+  padding-left: 30px;
+  padding-right: 30px;
+  vertical-align: middle;
+}
+
+.info .label {
+  font-size: 16px;
+  color: #4a4a4a;
+}
+
+
+.info h2 {
+  font-size: 20px;
+  color: #1b1b1b;
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+
+.ino .helper {
+  display: inline-block;
+  height: 100%;
+}
+
+
+.info p {
+  font-size: 16px;
+  color: #7a7a7a;
+  margin: 0;
+}
+
+.img-div1 {
+  width: 100%;
+  height: 385px;
+  background-image: url('img1.jpg');
+  background-size: cover;
+  background-position: center top;
+}
+
+.img-div2 {
+  width: 100%;
+  height: 200px;
+  background-image: url('img2.jpg');
+  background-size: cover;
+  background-position: center top;
+  text-align: center;
+}
+
+.img-div2 a {
+  color: white;
+  font-weight: bold;
+  border: 4px solid white;
+  padding: 9px 40px;
+  text-decoration: none;
+}
+
+.img-div2 .helper {
+  display: inline-block;
+  height: 100%;
+  vertical-align: middle;
+}
+
+.img-div3 {
+  width: 100%;
+  height: 200px;
+  background-image: url('img3.jpg');
+  background-size: cover;
+  background-position: center top;
+}
+
+
+
+@media (min-width: 768px) {
+  .col {
+    float: left;
+  }
+
+  .banner {
+    height: 562px;
+  }
+
+  .info {
+    height: 282px;
+  }
+
+  .info .info-container {
+    padding-left: 65px;
+    padding-right: 65px;
+  }
+
+  .img-div1 {
+    width: 50%;
+    height: 360px;
+  }
+
+  .img-div2 {
+    width: 50%;
+    height: 180px;
+  }
+
+  .img-div3 {
+    width: 50%;
+    height: 180px;
+  }
+}
+
+/* desktop */
+
+@media (min-width: 992px) {
+  .banner {
+    width: 50%;
+    height: 700px;
+  }
+
+  .info {
+    width: 50%;
+    height: 350px;
+  }
+
+  .img-div1 {
+    width: 25%;
+    height: 350px;
+  }
+
+  .img-div2 {
+    width: 25%;
+    height: 175px;
+  }
+
+  .img-div3 {
+    width: 25%;
+    height: 175px;
+  }
+}
