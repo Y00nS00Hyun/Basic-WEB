@@ -5,3 +5,27 @@ h1 {
 p {
     font-size: 16px;
 }
+
+@media (min-width: 768px) {
+
+    h1 {
+        font-size: 36px;
+    }
+
+    p {
+        font-size: 24px;
+    }
+
+}
+
+@media (min-width: 992px) {
+
+    h1 {
+        font-size: 48px;
+    }
+
+    p {
+        font-size: 32px;
+    }
+
+}
